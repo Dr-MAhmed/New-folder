@@ -74,3 +74,15 @@ divv2.classList.add('red');
 divv2.classList.remove('red');
 divv2.classList.toggle('red');
 divv2.classList.contains('red');
+
+//Try this after commenting the above lines of code...
+function getRandomColor (){
+    let val1 = Math.ceil(0 + Math.random() * 255);
+    let val2 = Math.ceil(0 + Math.random() * 255);
+    let val3 = Math.ceil(0 + Math.random() * 255);
+    return `rgb(${val1}, ${val2}, ${val3})`
+}
+setInterval(()=>{
+    let box = document.querySelector('.container');
+    box.style.backgroundColor = getRandomColor();
+}, 2000)
