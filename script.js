@@ -56,13 +56,13 @@ let num = prompt("Enter a number");
 num = Number.parseInt(num);
 
 if (num > 4) {
-    location.href = "http://www.google.com";
+    location.href = "https://drmahmed-portfolio.vercel.app/";
 } else {
     while (runAgain2) {
         num = prompt("Enter a number");
         num = Number.parseInt(num);
         if (num > 4) {
-            location.href = "http://www.google.com";
+            location.href = "https://drmahmed-portfolio.vercel.app/";
             break;
         } else {
             alert("Please enter a number between 1 and 4");
@@ -73,7 +73,6 @@ if (num > 4) {
 // Problem No - 05
 // Change the background of the page to yellow, red or any other color based on user input through prompt.
 let askAgain = true;
-
 function changeBackgroundColor() {
     let color = prompt("Enter the color you want to see on web page background.");
     let page = document.getElementById("bg-color");
