@@ -11,6 +11,7 @@ age < 18 ?
 // In Q-1, use confirm to ask the user if he wants to see the prompt again.
 let runAgain = false;
 const canDrive = (age1) => {
+    
     return age1 >= 18 ? true : false;
 };
 

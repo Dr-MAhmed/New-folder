@@ -52,7 +52,7 @@ instagram.addEventListener('click', ()=>{
 
 
 // Problem No-4
-// Write a JS program to keep fetching content of a website(every 5 sec).
+// Write a JS program to keep fetching content of any website(every 5 sec).
 const fetchContent = async (url)=>{
     const response = await fetch(url);
     const data = await response.json();
